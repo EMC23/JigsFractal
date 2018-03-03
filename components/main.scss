@@ -1,0 +1,16 @@
+
+// normalise
+@import "../components/_base/normalize.scss";
+
+// variables
+@import "../components/_base/variables.scss";
+
+// components
+@import "../components/**/*.scss";
+
+
+body {
+  background-color: $black-rich;
+  color: $white-off;
+  padding: 1rem;
+}

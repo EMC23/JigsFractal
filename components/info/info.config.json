@@ -1,0 +1,22 @@
+{
+    "title": "Info",
+    "context": {
+        "owner": "Left",
+        "name": "The Pink Palace",
+        "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.",
+        "level": "@level",
+        "stat-points": "@stat-points",
+        "id": 18537,
+        "type": "apartment",
+        "sale_price": 27000,
+        "coffers": 10000,
+        "timer": 0,
+        "protection": 200,
+        "energy": 9,
+        "xp": 185,
+        "total_stat_points": 4,
+        "remaining_stat_points": 2,
+        "level": 2
+    }
+
+}

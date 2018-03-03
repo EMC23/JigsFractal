@@ -1,0 +1,8 @@
+{
+    "title": "Stat points",
+    "handle": "stat-points",
+    "context": {
+        "total_stat_points": 4,
+        "remaining_stat_points": 2
+    }
+}

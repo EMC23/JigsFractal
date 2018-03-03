@@ -1,0 +1,23 @@
+.stats {
+  @include block($grey-dark, $white);
+
+  h4 {
+    color: white;
+    margin: 0;
+  }
+  
+  table {
+    th {
+      text-align: left;
+    }
+    tr {
+      border-bottom: 1px dotted $grey-mid;
+    }
+    td {
+      padding: 0.5rem 0.25rem;
+    }
+  }
+
+
+
+}

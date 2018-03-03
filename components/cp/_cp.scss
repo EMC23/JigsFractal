@@ -1,0 +1,4 @@
+.cp {
+  @include block-lg;
+  @include block($teal-dark-alt, $white-grey)
+}

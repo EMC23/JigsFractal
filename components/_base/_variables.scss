@@ -1,0 +1,123 @@
+// colors
+
+//https://accessibility.oit.ncsu.edu/tools/color-contrast/accessible-color-palette.php?colors=F5EFED,E8F1F2,E6E6EA,E2E2E2,605F5E,363F3F,33312E,0A0908,04151F,230007,00F2F2,00B9AE,009999,19535F,0B3C49,22B3A,042A2B,0A2463,00CC66,FFC43D,CEFF1A,D00A01,EF476F,FB5012,3C1642&level=AA
+
+$white: #FFFFFF;
+$white-off: #F5EFED;
+$white-grey: #E8F1F2;
+
+$grey-bg: #E6E6EA;
+$grey-light: #E2E2E2;
+$grey-mid: #605F5E;
+$grey-dark: #363F3F;
+$grey-dark-alt: #33312E;
+
+$black: #0A0908;
+$black-rich: #04151F;
+$dark: #230007;
+
+$teal-light: #00F2F2;
+$teal-light-alt: #00B9AE;
+$teal: #009999;
+$teal-alt: #19535F;
+$teal-dark: #0B3C49;
+$teal-dark-alt: #022B3A;
+$teal-dark-rich: #042A2B;
+
+$blue: #0A2463;
+$green: #00CC66;
+$yellow: #FFC43D;
+$lime: #CEFF1A;
+
+$red: #D00A01;
+$pink: #EF476F;
+$orange: #FB5012;
+$purple: #3C1642;
+
+
+
+
+.label {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 .25rem;
+  &.inline {
+    margin-right: .5rem;
+  }
+}
+
+h4.label {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@mixin counter {
+  display: inline-block;
+  text-align: center;
+  background: $dark;
+  color: $white;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+
+  svg {
+    padding-top: 2px;
+    fill: $white;
+    width: 16px;
+    height: 16px;
+  }
+
+  &.text {
+    margin: -4px -4px -4px 0;
+    width: 30px;
+    height: 32px;
+    border-radius: 0;
+    line-height: 32px;
+  }
+} 
+
+.increase {
+}
+
+.decrease {
+}
+
+@mixin block($bg-colour: $grey-dark, $txt-colour: $white) {
+  background-color: $bg-colour;
+  color: $txt-colour;
+  padding: 0.25rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+@mixin block-lg {
+  padding: 1rem;
+  ///margin: 0 1rem;
+}
+
+// https://scotch.io/tutorials/how-to-use-sass-mixins
+@mixin small() {
+  @media only screen and (max-width: 320px) {
+    @content;
+  }
+}
+
+@mixin col-2-grid() {
+  display: grid;
+  grid-template-columns: [info] 55% [cp] 45% [end];
+}
+
+@mixin col-3-equal-grid() {
+  display: grid;
+  grid-template-columns: [first] 33.333% [second] 33.333% [third] 33.333% [end];
+  > * {
+    justify-self: start;
+    align-self: start;
+  }
+}
+
+@mixin col-1-grid($grid-column: 1, $grid-width: 3) {
+    justify-self: stretch;
+    align-self: stretch;
+    grid-column: $grid-column / span $grid-width;
+}

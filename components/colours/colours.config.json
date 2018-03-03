@@ -1,0 +1,111 @@
+{
+    "title": "Colour Palette",
+    "context": {
+        "colours": [
+            {
+                "colour": "$white",
+                "hex": "#FFFFFF"
+            },
+            {
+                "colour": "$white-off",
+                "hex": "#F5EFED"
+            },
+            {
+                "colour": "$white-grey",
+                "hex": "#E8F1F2"
+            },
+            {
+                "colour": "$grey-bg",
+                "hex": "#E6E6EA"
+            },
+            {
+                "colour": "$grey-light",
+                "hex": "#E2E2E2"
+            },
+            {
+                "colour": "$grey-mid",
+                "hex": "#605F5E"
+            },
+            {
+                "colour": "$grey-dark",
+                "hex": "#363F3F"
+            },
+            {
+                "colour": "$grey-dark-alt",
+                "hex": "#33312E"
+            },
+            {
+                "colour": "$black",
+                "hex": "#0A0908"
+            },
+            {
+                "colour": "$black-rich",
+                "hex": "#04151F"
+            },
+            {
+                "colour": "$dark",
+                "hex": "#230007"
+            },
+            {
+                "colour": "$teal-light",
+                "hex": "#00F2F2"
+            },
+            {
+                "colour": "$teal-light-alt",
+                "hex": "#00B9AE"
+            },
+            {
+                "colour": "$teal",
+                "hex": "#009999"
+            },
+            {
+                "colour": "$teal-alt",
+                "hex": "#19535F"
+            },
+            {
+                "colour": "$teal-dark",
+                "hex": "#0B3C49"
+            },
+            {
+                "colour": "$teal-dark-alt",
+                "hex": "#022B3A"
+            },
+            {
+                "colour": "$teal-dark-rich",
+                "hex": "#042A2B"
+            },
+            {
+                "colour": "$blue",
+                "hex": "#0A2463"
+            },
+            {
+                "colour": "$green",
+                "hex": "#00CC66"
+            },
+            {
+                "colour": "$yellow",
+                "hex": "#FFC43D"
+            },
+            {
+                "colour": "$lime",
+                "hex": "#CEFF1A"
+            },
+            {
+                "colour": "$red",
+                "hex": "#D00A01"
+            },
+            {
+                "colour": "$pink",
+                "hex": "#EF476F"
+            },
+            {
+                "colour": "$orange",
+                "hex": "#FB5012"
+            },
+            {
+                "colour": "$purple",
+                "hex": "#3C1642"
+            }
+        ]
+    }
+}
