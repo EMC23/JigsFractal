@@ -1,2 +1,2 @@
 # JigsFractal
-styleguide for Ecelcticmeme, using Fractal
+styleguide for Ecelcticmeme, using Fractal https://github.com/frctl/fractal
